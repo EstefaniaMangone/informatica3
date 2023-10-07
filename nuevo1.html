@@ -1,0 +1,96 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos generales del menú */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            position: relative;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Estilos para el menú desplegable */
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            padding: 10px;
+            min-width: 150px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        li:hover .dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="#">Item 1</a>
+            <ul class="dropdown">
+                <li><a href="#">Subitem 1.1</a></li>
+                <li><a href="#">Subitem 1.2</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Item 2</a>
+            <ul class="dropdown">
+                <li><a href="#">Subitem 2.1</a></li>
+                <li><a href="#">Subitem 2.2</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Item 3</a>
+            <ul class="dropdown">
+                <li><a href="#">Subitem 3.1</a></li>
+                <li><a href="#">Subitem 3.2</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+<head>
+<title>Hipico Dos Molinos</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<table background="#efefef" width="100%">
+  <tr>
+     <td class="menu"><p>Menu</p> </td>
+      <td class="pepe"><p><h1>HíPICO DOS MOLINOS</p></td>    
+    </tr>
+   <tr>
+    <td colspan="2">  <img width="1400" src="imagenes/PORTADA.png">  </td>
+    </tr>
+	<tr>
+    <td colspan="2"><p><h1>¿Quiénes somos?</h1></p></td>
+    </tr>
+   <tr>
+    <td><img width="400" src="imagenes/gente1.JPEG"></td>
+	<td><p><h2>Somos un centro hípico, donde realizamos y ofrecemos distintas actividades con los caballos, desde clases hasta paseos por el campo guiadas por nuestros profes.</h2></p>
+    <p><h2>Para ver imágenes y/o videos hace <a href="https://drive.google.com/drive/folders/1szNXNkbNeYENSuPOk5YEeumUJLArRzGu?usp=sharing">click acá.</a></h2></p>
+	</tr>
+	<tr>
+      <td colspan="2"> <img width="250" src="https://i.ytimg.com/vi/4VaqA-5aQTM/maxresdefault.jpg"></td>
+    </tr>
+   <tr>
+      <td colspan="2"><p>Texto</p></td>
+    </tr>    
+  </table>
+</body>
+</html>
